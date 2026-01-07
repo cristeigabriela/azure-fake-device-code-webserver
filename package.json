@@ -1,0 +1,15 @@
+{
+  "name": "fake-azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fake-azure": "powershell.exe -File ./scripts/run.ps1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3",
+    "selfsigned": "^5.4.0"
+  }
+}
